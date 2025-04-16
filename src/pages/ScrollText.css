@@ -1,0 +1,36 @@
+.scroll-text {
+    width: 100vw;
+    height: 300vh;
+}
+.scrollt {
+    position: fixed;
+    top: 40%;
+    text-align: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.scrollt.on {
+    opacity: 1;
+}
+
+.scrolli {
+    width: 100%;
+    position: fixed;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.scrolli.on {
+    opacity: 1;
+}
+
+.scrolli .scroll-img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    transform: translateY(100%);
+    transition: all 1s ease;
+}
+.scrolli.on .scroll-img{
+transform: translateY(0);
+}

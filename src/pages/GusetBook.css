@@ -1,0 +1,106 @@
+.guest-outBox {
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+.guest-outBox h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.guest-board {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.guest-board form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 420px;
+}
+
+.guest-board form input {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.guest-board form textarea {
+    height: 400px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.guest-board button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3062be;
+    color: #fff;
+    font-size: 15px;
+}
+
+.guest-board button:hover {
+    background-color: #22427e;
+}
+
+.message {
+    min-width: 400px;
+    height: 520px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    overflow-y: scroll;
+}.guest-outBox {
+    max-width: 1000px;
+    margin: 100px auto;
+}
+
+.guest-outBox h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.guest-board {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.guest-board form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 420px;
+}
+.guest-board form input {
+    padding: 10px;
+    font-size: 15px;
+}
+.guest-board form textarea {
+    height: 400px;
+    padding: 10px;
+    font-size: 15px;
+}
+.guest-board button {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3062be;
+    color: #fff;
+    font-size: 15px;
+}
+.guest-board button:hover {
+    background-color: #22427e;
+}
+
+.message {
+    min-width: 400px;
+    height: 520px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 20px;
+    overflow-y: scroll;
+}
